@@ -1,3 +1,11 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background: url(./gambar/ITSlogo.png) top center;
+}
+
 
 .brown-sugar {
     color: brown;
@@ -5,8 +13,6 @@
     margin: 50px!important;
 }
    
-
-
 #tabel-kuy {
     margin-top: 40px; 
     margin-right: 15px;
@@ -14,4 +20,41 @@
     margin-left:  80px;
     background-color: crimson;
     padding: 25px;
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+    color: orange;
+}
+
+#kepala-kotak {
+    margin-top: 10px;
+    width: 900px;
+    background-color: hotpink;
+    padding: 20px;
+    display: block;
+}
+
+#badan-kotak {
+    margin-top: 10px;
+    width: 900px;
+    background-color: hotpink;
+    padding: 5px;
+    height: 300px;
+}
+
+.box {
+    margin-top: 10px;
+    width: 350px;
+    background-color: blue;
+    margin-right: 10px;
+    float: left;
+    padding: 30px;
+}
+
+p::first-letter{
+    font-size: xx-large;
 }
