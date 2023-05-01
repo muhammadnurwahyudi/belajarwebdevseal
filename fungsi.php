@@ -4,7 +4,7 @@
         if ($nama == "Azzaria") {
             echo "Selamat Pagi ".$nama;
         } elseif ($nama == "Nadifa") {
-            echo "Hi Winda ".$nama;
+            echo "Hi Apa Kabar ".$nama;
         } else {
             echo  "$nama? Maaf Tidak Kenal, Kamu Siapa?";
         }
