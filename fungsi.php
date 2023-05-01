@@ -1,9 +1,9 @@
 <?php
     function hello($nama) {
 
-        if ($nama == "Hilmi") {
+        if ($nama == "Azzaria") {
             echo "Selamat Pagi ".$nama;
-        } elseif ($nama == "Winda") {
+        } elseif ($nama == "Nadifa") {
             echo "Hi Winda ".$nama;
         } else {
             echo  "$nama? Maaf Tidak Kenal, Kamu Siapa?";
